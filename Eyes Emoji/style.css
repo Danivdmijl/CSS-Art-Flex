@@ -16,14 +16,18 @@ body{
     background: white;
     border-radius: 50%;
     box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.4);;
+    position: relative;
 }
 
 .iris{
     width: 80px;
     height: 80px;
     background: #30D733;
+    background: linear-gradient(#3422ff,70%, #8277ff);
     border-radius: 50%;
-    position: relative;
+    position: absolute;
+    top: 27%;
+    left: 30%;
 }
 
 .pupil{
